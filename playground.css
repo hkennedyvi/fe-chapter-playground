@@ -1,5 +1,5 @@
 /* color/chromatic fonts */
-/* multi colors in single glyph!!!! */
+/* multi colors in single glyph */
 /* interperted as regular fonts in browser (no need for svgs) */
 @import url("https://fonts.googleapis.com/css2?family=Nabla&display=swap");
 
@@ -30,9 +30,9 @@ dialog::backdrop {
 }
 
 .dope-letter::first-letter {
-  /* Initial letter occupies 4 lines and sinks 4 lines */
-  -webkit-initial-letter: 4 4;
-  initial-letter: 4 4;
+  /* Initial letter occupies 3 lines and sinks 3 lines */
+  -webkit-initial-letter: 3 3;
+  initial-letter: 3 3;
   color: red;
   /* font-size: 8rem; */
 }
